@@ -50,6 +50,7 @@ module.exports = {
           900: '#7c2d12',
           950: '#431407',
         },
+        
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -79,6 +80,12 @@ module.exports = {
             DEFAULT: "#0ea5e9",
             foreground: "#FFFFFF",
           },
+          text: {
+          primary: '#11181C',
+          secondary: '#475467',
+          muted: '#6B7280',
+          accent: '#F97316',
+        },
           focus: "#0ea5e9",
         },
       },
@@ -100,6 +107,12 @@ module.exports = {
             950: "#082f49",
             DEFAULT: "#0ea5e9",
             foreground: "#FFFFFF",
+          },
+          text: {
+            primary: '#ECEDEE',
+            secondary: '#AEB8C2',
+            muted: '#6B7280',
+            accent: '#F97316',
           },
           focus: "#0ea5e9",
         },
