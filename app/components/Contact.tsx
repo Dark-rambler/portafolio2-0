@@ -2,7 +2,7 @@
 
 import { Input, Textarea, Button, Card, CardBody } from "@nextui-org/react"
 import { motion } from "framer-motion"
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -96,8 +96,6 @@ export default function Contact() {
                       size="lg"
                       radius="lg"
                       className="w-full bg-gradient-to-r p-3 rounded-sm from-secondary-500 to-primary-500 text-white font-semibold"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
                     >
                       Enviar Mensaje
                     </Button>
@@ -195,8 +193,6 @@ export default function Contact() {
                           aria-label={label}
                           radius="full"
                           className="text-primary-500 hover:text-secondary-500 transition-colors"
-                          whileHover={{ scale: 1.15, rotate: 10 }}
-                          whileTap={{ scale: 0.9 }}
                         >
                           {icon}
                         </Button>

@@ -2,7 +2,7 @@
 
 import { Card, CardBody, CardFooter, Button, Chip } from "@nextui-org/react";
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { projects } from "../const/ConstantLists";
 import Image from "next/image";
 
@@ -141,7 +141,7 @@ export default function Projects() {
                   </CardBody>
 
                   <CardFooter className="flex gap-2 justify-end">
-                    {project.github && (
+                    {/* {project.github && (
                       <Button
                       isIconOnly
                       variant="flat"
@@ -150,13 +150,11 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Ver código fuente de ${project.title} en GitHub`}
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
                     >
                       <FaGithub className="text-xl" />
                     </Button>
-                    )}
-                    
+                    )} */}
+
                     <Button
                       isIconOnly
                       variant="flat"
@@ -165,8 +163,6 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Ver demo de ${project.title}`}
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
                     >
                       <FaExternalLinkAlt className="text-xl" />
                     </Button>
